@@ -1,29 +1,23 @@
 body{
   text-align: center;
-}
-
-h3{
-  color: #ffffff;
-  text-align: center;
-  font-size: 40px;
+  display: flex;
 
 }
 
-/*#container{
-  width: 500px;
-  height: 700px;
-  border: 1px solid #ffffff;
+#container{
   margin: auto;
-}*/
+  border: black;
+}
 
 #display{
   border: 1px solid #ffffff;
   background-color: #519648;
-  width: 120px;
+  width: 129px;
   height: 40px;
+  color: #ffffff;
 }
 
-#keys, #equal{
+.keys, #equal{
   height: 40px;
   width: 40px;
   outline: none;
@@ -33,7 +27,7 @@ h3{
   border: 1px solid #ffffff;
 }
 
-#add, #sub, #divide, #mply{
+#add, #sub, #divide, #mul{
   height: 40px;
   width: 40px;
   color: #519648;
