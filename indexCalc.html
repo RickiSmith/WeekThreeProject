@@ -1,0 +1,51 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+
+  <link rel="stylesheet" href="styleCalc.css">
+  <!-- <script type="text/javascript">
+  function displynum(n1)
+  {
+    calcForm.txt1.value=calcForm.txt1.value+n1;
+
+  }
+  </script> -->
+</head>
+<body>
+<h3>Calculator</h3>
+<div id = container>
+<form name="calcForm">
+  <br/>
+  <input type="button" id="keys" value="C" onclick= "toScreen('c')" />
+  <input type=text id= "display">
+
+  <br />
+  <input type="button" id="keys" value="7" onclick= "toScreen('7')" />
+  <input type="button" id="keys" value="8" onclick= "toScreen('8')" />
+  <input type="button" id="keys" value="9" onclick= "toScreen('9')" />
+  <input type="button" id="divide" value="/" onclick= "toScreen(/)" />
+  <br />
+  <input type="button" id="keys" value="4" onclick= "toScreen('4')" />
+  <input type="button" id="keys" value="5" onclick= "toScreen('5')" />
+  <input type="button" id="keys" value="6" onclick= "toScreen('6')" />
+  <input type="button" id="mply" value="*" onclick= "toScreen('*')" />
+  <br />
+  <input type="button" id="keys" value="1" onclick= "toScreen('1')" />
+  <input type="button" id="keys" value="2" onclick= "toScreen('2')" />
+  <input type="button" id="keys" value="3" onclick= "toScreen('3')" />
+  <input type="button" id="sub" value="-" onclick= "toScreen('-')" />
+  <br />
+  <input type="button" id="keys" value="0" onclick= "toScreen('0')" />
+  <input type="button" id="keys" value="." onclick= "toScreen('.')" />
+  <input type="button" id="equal" value="=" onclick= "equal()"/>
+  <input type="button" id="add" value="+" onclick= "toScreen('+')" />
+  <!-- <input type=button id="keys" value="C" onclick= "toScreen('c')" /> -->
+</form>
+</div>
+
+
+
+  <script src="mainCalc.js"></script>
+</body>
+</html>
